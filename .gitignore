@@ -41,3 +41,13 @@ googletest/fused-src/
 
 # macOS files
 .DS_Store
+*.vcxproj
+*.vcxproj.filters
+CMakeCache.txt
+.vs/
+CMakeFiles/
+*.cmake
+Debug/
+Release/
+*.sln
+*.pc
