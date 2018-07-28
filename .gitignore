@@ -17,6 +17,10 @@ bazel-testlogs
 *.VC.opendb
 *.suo
 *.user
+*.vcxproj
+*.vcxproj.filters
+*.sln
+.vs/
 _ReSharper.Caches/
 Win32-Debug/
 Win32-Release/
@@ -41,13 +45,11 @@ googletest/fused-src/
 
 # macOS files
 .DS_Store
-*.vcxproj
-*.vcxproj.filters
+
+# CMake generated files
 CMakeCache.txt
-.vs/
 CMakeFiles/
 *.cmake
 Debug/
 Release/
-*.sln
 *.pc
